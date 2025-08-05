@@ -1,0 +1,14 @@
+{
+  "name": "watchwise",
+  "version": "1.0.0",
+  "description": "Mood tracking app",
+  "main": "client/mood-server/server.js",
+  "scripts": {
+    "start": "node client/mood-server/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "cors": "^2.8.5"
+  }
+}
